@@ -5,7 +5,7 @@ function __autoload($class_name) {
 }
 
 
-$detector = new Detector('./../ndd/test');
+$detector = new Detector('./test');
     echo "Checking for duplicates using NDD...\n";
     $duplicates = $detector->check_for_duplicates();
     if($duplicates) {
